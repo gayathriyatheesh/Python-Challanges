@@ -1,89 +1,50 @@
+Python Smart Challenges Repository
+
+This repository contains multiple Python challenges focusing on data processing, validation systems, and real-world intelligent analytics. Each challenge implements Python concepts such as lists, dictionaries, functions, NumPy, Pandas, and conditional logic.
+
+Challenges Included
+User Profile Validation System
+Smart ID Credential Validator
+Student Performance Analyzer
+Smart List Filter & Rebuilder
+Smart Transport Load Balancing System
 Smart Playlist Intelligence System
+Smart Campus Energy Analyzer
+Autonomous Smart City Data Intelligence System
+Challenge 1: User Profile Validation System
 
-About the Project:
-This program analyzes a playlist by checking the duration of songs (in seconds).
-Based on certain conditions, it categorizes the playlist and gives a suitable recommendation.
+This challenge validates user profiles using conditions such as name format, age limits, and email structure. It checks invalid inputs and returns valid user records. The program uses lists, dictionaries, and functions.
 
-The playlist can be classified as:
-Too Short
-Too Long
-Repetitive
-Balanced
-Irregular
-Premium Structured Playlist (Personalized)
+Challenge 2: Smart ID Credential Validator
 
-🧠 Problem Understanding:
-The task is to take a list of song durations and check whether the playlist is valid and well-structured. The program calculates total duration, checks for repetition, and categorizes the playlist accordingly. It also applies a personalized rule based on my register number.
+This challenge validates smart ID credentials based on predefined rules. It checks format, uniqueness, and access levels. The system classifies IDs as valid, invalid, or restricted.
 
-⚙️ Logic Used:
-Take song durations as input (space separated).
-Check if any duration is less than or equal to 0 → mark as Invalid.
+Challenge 3: Student Performance Analyzer
 
-Calculate:
-Total duration using sum()
-Number of songs using len()
-Apply conditions in order:
-If number of songs is divisible by 9 → Premium Structured Playlist (Personalized rule)
-If total < 300 → Too Short
-If total > 3600 → Too Long
-If repeated durations exist → Repetitive
-If valid and balanced → Balanced
-Otherwise → Irregular
+This challenge analyzes student marks and calculates performance metrics. It computes average marks, grades, and identifies top performers. The system also classifies students into performance categories.
 
-Personalization Applied:
+Challenge 4: Smart List Filter & Rebuilder
 
-Last digit of my Register Number = 9
+This challenge filters and rebuilds lists based on conditions. It removes duplicates, applies transformations, and reconstructs the final list. The program demonstrates list manipulation and conditional logic.
 
-Personalized Logic:
-If the total number of songs is divisible by 9,
-the playlist is categorized as Premium Structured Playlist.
+Challenge 5: Smart Transport Load Balancing System
 
-This rule makes the solution personalized based on my register number.
+This challenge simulates transport load distribution across vehicles. It balances load using capacity constraints and identifies overloaded vehicles. The system optimizes transport efficiency.
 
-🧪 Test Cases:
-✅ Case 1 – Balanced Playlist
+Challenge 6: Smart Playlist Intelligence System
 
-Input:
+This challenge analyzes playlist data and categorizes songs. It filters based on duration, genre, and popularity. The system generates smart playlists using rules and sorting.
 
-180 200 220 210
+Challenge 7: Smart Campus Energy Analyzer
 
-Expected Output:
+This challenge simulates campus energy consumption data. It analyzes building-wise usage and detects high energy zones. The system calculates average usage and predicts energy alerts.
 
-Total Duration: 810 seconds
-Songs: 4
-Category: Balanced Playlist
-Recommendation: Good listening session
+Challenge 8: Autonomous Smart City Data Intelligence System
 
-✅ Case 2 – Repetitive Playlist
+This challenge simulates smart city sensor data using:
 
-Input:
+Traffic density
+Air quality index
+Energy consumption
 
-120 120 150
-
-Expected Output:
-
-Total Duration: 390 seconds
-Songs: 3
-Category: Repetitive Playlist
-Recommendation: Add variety
-
-✅ Case 3 – Personalized Rule Applied
-
-Input:
-
-100 200 300 400 500 600 700 800 900
-
-Expected Output:
-
-Total Duration: 4500 seconds
-Songs: 9
-Category: Premium Structured Playlist
-Recommendation: Highly organized listening pattern
-
-📚 Learning Outcome:
-Through this challenge, I learned how to:
-Work with lists in Python
-Validate user input
-Use inbuilt functions like sum(), len(), count()
-Apply logical conditions in a structured way
-Add personalized logic to a program
+The system generates random data, classifies zones, calculates risk score, and detects multi-variable risk patterns.
