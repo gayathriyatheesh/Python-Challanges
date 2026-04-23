@@ -48,3 +48,11 @@ Air quality index
 Energy consumption
 
 The system generates random data, classifies zones, calculates risk score, and detects multi-variable risk patterns.
+
+Challenge 9 — Multi-Level Data Replication & Integrity Analyzer
+
+Simulates nested user data replication using assignment, shallow copy, and deep copy. The program performs multi-level mutation and detects hidden data corruption. It outputs integrity report and tuple showing leakage and safe copies.
+
+Challenge 10 — Smart Predictive Data Replication Analyzer
+
+Generates complex nested system data and applies shallow and deep copy mutations. Risk is calculated using log transformation and analyzed using NumPy and Pandas. The system detects anomalies, computes stability index, and predicts final risk state.
